@@ -1,7 +1,7 @@
 package Ejercicio2;
 
 
-class Main {
+class main {
     public static void main(String[] args) {
         Transferencia transferencia = new Transferencia(50000);
 

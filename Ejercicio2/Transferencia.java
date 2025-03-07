@@ -3,10 +3,10 @@ package Ejercicio2;
 import java.time.LocalDate;
 
 public class Transferencia {
-    private final int importe;
-    private final String cuentaOrigen;
-    private final String cuentaDestino;
-    private final LocalDate fecha;
+    private int importe;
+    private String cuentaOrigen = new String();
+    private String cuentaDestino = new String();
+    private LocalDate fecha;
 
     public Transferencia(int importe) {
         this.importe = importe;
@@ -29,6 +29,10 @@ public class Transferencia {
 
     public LocalDate getFecha() {
         return fecha;
+    }
+
+    public int importe() {
+        return importe;
     }
 }
 // SRP
